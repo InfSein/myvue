@@ -1,0 +1,13 @@
+/*
+ * 覆盖/优化组件样式
+ */
+
+/* 修正menu */
+.n-menu {
+  .n-menu-item {
+    margin-top: 4px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
